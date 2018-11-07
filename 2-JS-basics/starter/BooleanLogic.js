@@ -13,4 +13,6 @@ if (age < 13) {
 && - and
 || - or
 ! - not
+
+and > or for order presence
  */
