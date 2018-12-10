@@ -4,9 +4,12 @@ var john = {
     year: 1990,
     family: ['Jane', 'Mark', 'Bob', 'Emily'],
     job: 'teacher',
-    isMarried: false
+    isMarried: false,
+    fullName: function () {
+        console.log(john['fName'],john['lName']);
+    }
 };
-
+john.fullName();
 console.log(john.isMarried);
 console.log(john['fName']);
 
@@ -20,3 +23,6 @@ jane.name = 'Jane';
 jane.year = 1969;
 jane['lName'] = 'Smith';
 console.log(jane);
+
+// Traversing object
+// for (var _tempName_ in _obj_){ obj[_tempName_] = stuff}
